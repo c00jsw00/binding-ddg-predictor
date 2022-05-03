@@ -28,6 +28,7 @@ The model requires two input PDB files: (1) a wild-type complex structure, and (
 
 ```bash
 python ./scripts/predict.py <path-to-wild-type-pdb> <path-to-mutant-pdb>
+
 ```
 
 A quick example can be obtained by running:
@@ -36,6 +37,8 @@ A quick example can be obtained by running:
 python ./scripts/predict.py ./data/example_wt.pdb ./data/example_mut.pdb
 ```
 
+## Mutation (MD simulations) by YT Wang
+Charmm-gui ==> amber MD (mutation) ==> PDB ==> HSD need to be tranfered to HIS 
 ## Citation
 
 Coming soon...
